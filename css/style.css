@@ -48,6 +48,15 @@ header {
 	box-shadow: 2px 1px 5px #888888;
 }
 
+.main-nav li a:hover {
+	background-color: #eee;
+	transform: scale(1.2);
+}
+
+.main-nav li a:active {
+	background-color: pink;
+}
+
 /* Main */
 section {
 	height: 100vh;
